@@ -79,9 +79,11 @@ text-decoration: overline underline;
 a:active{}
 
 h1{
-font-size: 130px;
+font-size: 120px;
 font-face: times;
 color:#ffffff;
+background-color:#000000;
+width:100%
 }
 
 h3
@@ -97,7 +99,7 @@ margins:auto;
 .title {
 width:100%;
 text-align:left;
-height:30px;
+height:10%;
 position:fixed;
 margin-top:0px;
 margin-left:0px;
@@ -105,7 +107,7 @@ background-color:#000000;
 padding-top:12px;
 padding-left:20px;
 font-style: arial;
-font-size: 16px;
+font-size: 32px;
 }
 
 
@@ -125,4 +127,12 @@ background-size: cover;
 height:100%;
 text-align:center;
 padding:200px;
+}
+
+.fixed2{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height:100%;
 }
